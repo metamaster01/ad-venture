@@ -56,7 +56,7 @@ export default function Navbar() {
         >
           <Link href="/" className="flex items-center gap-3 group" aria-label="AD VENTURE Home">
             {/* Logo image */}
-            <div className="relative w-25 h-20 md:w-30 md:h-20 flex-shrink-0">
+            <div className="relative w-15 h-10 md:w-30 md:h-18 flex-shrink-0">
               <Image src="/logo.png" alt="AD VENTURE logo" fill sizes="44px" className="object-contain" />
             </div>
           </Link>
