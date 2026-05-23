@@ -5,6 +5,9 @@ import AboutSection from '@/components/AboutSection';
 import CTASection from '@/components/CTASection';
 import FAQSection from '@/components/FAQSection';
 import ContactSection from '@/components/ContactSection';
+import Testimonials from '@/components/Testimonials';
+import SelectedWork from '@/components/SelectedWork';
+import Capabilities from '@/components/Capabilities';
 
 export default function HomePage() {
   return (
@@ -13,6 +16,9 @@ export default function HomePage() {
       <HeroSection />
       <BrandBand />
       <AboutSection />
+      <SelectedWork />
+      <Capabilities />
+      <Testimonials />
       <CTASection />
       <FAQSection />
       <ContactSection />
