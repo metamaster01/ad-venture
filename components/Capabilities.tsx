@@ -84,7 +84,7 @@ function CapabilityCard({ cap, index }: { cap: (typeof capabilities)[0]; index: 
 
 export default function Capabilities() {
   return (
-    <section className="cap-section">
+    <section className="cap-section" id="services">
       <style>{`
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
 

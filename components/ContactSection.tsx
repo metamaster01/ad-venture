@@ -67,6 +67,12 @@ export default function ContactSection() {
     }),
   };
 
+  const footerLinks = [
+    { name: "Instagram", href: "https://www.instagram.com/ad_venture_advertisement?igsh=MXJ3cGE1dnpyb3g2Nw==" },
+    { name: "Facebook", href: "https://www.facebook.com/profile.php?id=61589756435968" },
+    { name: "YouTube", href: "https://www.youtube.com/channel/UCDG5szNTD2uEBoodzxKPdLw" },
+  ];
+
   return (
     <>
       <style>{`
@@ -318,7 +324,7 @@ export default function ContactSection() {
         }
       `}</style>
 
-      <section className="cs-section">
+      <section className="cs-section" id="contact">
         <div className="cs-inner">
           {/* ── LEFT ── */}
           <div>
@@ -358,14 +364,14 @@ export default function ContactSection() {
             >
               <div className="cs-contact-block">
                 <p className="cs-contact-label">Email Us</p>
-                <a href="mailto:hello@noir-studio.com" className="cs-contact-value">
-                  HELLO@NOIR-STUDIO.COM
+                <a href="mailto:info.adventure27@gmail.com" className="cs-contact-value">
+                  info.adventure27@gmail.com
                 </a>
               </div>
 
               <div className="cs-contact-block">
                 <p className="cs-contact-label">Studio Location</p>
-                <span className="cs-contact-value">LONDON / LOS ANGELES</span>
+                <span className="cs-contact-value">Nagpur / Maharashtra</span>
               </div>
             </motion.div>
           </div>
@@ -462,15 +468,17 @@ export default function ContactSection() {
           </div>
 
           <ul className="cs-footer-nav">
-            {["Instagram", "Vimeo", "Behance", "LinkedIn"].map((link) => (
-              <li key={link}>
-                <a href="#" aria-label={link}>{link}</a>
+            {footerLinks.map((link) => (
+              <li key={link.name}>
+                <a href={link.href} aria-label={link.name} target="_blank" rel="noopener noreferrer">
+                  {link.name}
+                </a>
               </li>
             ))}
           </ul>
 
           <span className="cs-footer-copy">
-            © {new Date().getFullYear()} — All Frames Reserved
+            © {new Date().getFullYear()} — All right reserved by <a href="https://metamaster.in" target="_blank" rel="noopener noreferrer">Metamaster</a>
           </span>
         </footer>
       </section>

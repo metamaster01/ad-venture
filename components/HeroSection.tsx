@@ -505,7 +505,7 @@ export default function HeroSection() {
               {/* CTAs */}
               <div className="flex flex-col sm:flex-row lg:flex-col xl:flex-row gap-3 mb-8">
                 <a
-                  href="#work"
+                  href="https://www.instagram.com/ad_venture_advertisement?igsh=MXJ3cGE1dnpyb3g2Nw=="
                   className="btn-shimmer group inline-flex items-center justify-center gap-3 bg-[#F5C518] text-black text-[10px] tracking-[0.22em] uppercase px-7 py-[13px] font-[700] hover:bg-white transition-colors duration-300"
                   style={{ fontFamily: 'Inter, sans-serif' }}
                 >

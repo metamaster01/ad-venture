@@ -35,7 +35,7 @@ export default function Navbar() {
     <>
       {/* ── Main bar ───────────────────────────────────────── */}
       <motion.header
-        className="fixed top-0 inset-x-0 z-50 flex items-center justify-between px-6 md:px-10 lg:px-14 transition-[height] duration-300 py-4"
+        className="fixed top-0 inset-x-0 z-50 flex items-center justify-between px-6 md:px-10 lg:px-14 transition-[height] duration-300 py-6"
         style={{ height: scrolled ? 64 : 80 }}
         animate={{
           backgroundColor: scrolled ? 'rgba(0,0,0,0.88)' : 'rgba(0,0,0,0)',
@@ -56,10 +56,44 @@ export default function Navbar() {
         >
           <Link href="/" className="flex items-center gap-3 group" aria-label="AD VENTURE Home">
             {/* Logo image */}
-            <div className="relative w-15 h-10 md:w-30 md:h-18 flex-shrink-0">
-              <Image src="/logo.png" alt="AD VENTURE logo" fill sizes="44px" className="object-contain" />
+            <div className="relative w-16 h-12 md:w-20 md:h-20 flex-shrink-0">
+              <Image src="/logo-2.png" alt="AD VENTURE logo" fill sizes="44px" className="object-contain" />
             </div>
+            {/* <div className="relative w-10 h-10 md:w-11 md:h-11 flex-shrink-0">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-full h-full">
+                <defs>
+                  <linearGradient id="lg" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%"   stopColor="#F5C518" />
+                    <stop offset="100%" stopColor="#C9A227" />
+                  </linearGradient>
+                </defs>
+                
+                <path d="M4 40L14.5 9h3L7 40H4z"              fill="url(#lg)" />
+                <path d="M14.5 9h3l10.5 31h-3.5L14.5 9z"      fill="url(#lg)" opacity="0.6" />
+                <path d="M7.5 27h14v3h-14z"                    fill="url(#lg)" />
+          
+                <rect x="26" y="9" width="3" height="31" rx="1" fill="url(#lg)" />
+                <path
+                  d="M29 9c8.5 0 14 4.5 14 15.5S37.5 40 29 40"
+                  stroke="url(#lg)" strokeWidth="3"
+                  fill="none" strokeLinecap="round"
+                />
+              </svg>
+            </div> */}
+
+            <div className="flex flex-col leading-none">
+              <span className="font-impact text-white text-[18px] tracking-[0.18em] group-hover:text-[#F5C518] transition-colors duration-300">
+                AD VENTURE
+              </span>
+              <span className="text-[9px] tracking-[0.3em] text-[#F5C518] uppercase font-light mt-[2px]"
+                style={{ fontFamily: 'Inter, sans-serif' }}>
+                Productions
+              </span>
+            </div>
+
+
           </Link>
+
         </motion.div>
 
         {/* Desktop nav links */}

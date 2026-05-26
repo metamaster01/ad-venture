@@ -20,7 +20,7 @@ export async function POST(req: NextRequest) {
 
     // Send email to admin
     const { error } = await resend.emails.send({
-      from: "Website Contact <onboarding@resend.dev>", // Replace with your verified domain e.g. "no-reply@noir-studio.com"
+      from: "Website Contact <support@adventureadvertisement.com>", // Replace with your verified domain e.g. "no-reply@noir-studio.com"
       to: [process.env.ADMIN_EMAIL!],                  // Your admin email set in .env
       replyTo: email,                                   // So you can reply directly to the client
       subject: `New Project Inquiry from ${name}`,

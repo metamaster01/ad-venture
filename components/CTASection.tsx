@@ -125,12 +125,12 @@ function EmailButton() {
   return (
     <motion.a
       ref={ref}
-      href="mailto:hello@adventure.studio"
+      href="mailto:info.adventure27@gmail.com"
       className="group inline-flex items-center gap-4 border border-[#F5C518]/60 px-8 py-4 hover:border-[#F5C518] transition-colors duration-300 relative overflow-hidden"
       initial={{ opacity: 0, y: 20 }}
       animate={inView ? { opacity: 1, y: 0 } : {}}
       transition={{ duration: 0.8, delay: 0.7, ease: EASE }}
-      aria-label="Email us at hello@adventure.studio"
+      aria-label="Email us at info.adventure27@gmail.com"
     >
       {/* Shimmer */}
       <span
@@ -143,7 +143,7 @@ function EmailButton() {
         className="relative z-10 text-white text-[13px] md:text-[15px] tracking-[0.08em]"
         style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400 }}
       >
-        hello@adventure.studio
+        info.adventure27@gmail.com
       </span>
 
       {/* Arrow icon box */}
@@ -173,7 +173,7 @@ export default function CTASection() {
   return (
     <section
       ref={sectionRef}
-      id="contact"
+      id="studio"
       className="relative bg-black min-h-screen flex flex-col items-center justify-center overflow-hidden"
     >
       {/* ── Animated shatter particles ──────────────────── */}
