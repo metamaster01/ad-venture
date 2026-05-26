@@ -1,7 +1,7 @@
 "use client";
 
 import { useRef, useEffect, useState } from "react";
-import { motion, AnimatePresence } from "framer-motion";
+import { motion, AnimatePresence, easeInOut } from "framer-motion";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
@@ -87,12 +87,12 @@ export default function Testimonials() {
       opacity: 1,
       y: 0,
       rotateX: 0,
-      transition: { duration: 1, delay: i * 0.1, ease: [0.16, 1, 0.3, 1] },
+      transition: { duration: 1, delay: i * 0.1, ease: easeInOut },
     }),
     exit: (i: number) => ({
       opacity: 0,
       y: -32,
-      transition: { duration: 0.4, delay: i * 0.04, ease: [0.4, 0, 1, 1] },
+      transition: { duration: 0.4, delay: i * 0.04, ease: easeInOut },
     }),
   };
 
