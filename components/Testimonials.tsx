@@ -11,9 +11,9 @@ if (typeof window !== "undefined") {
 
 const testimonials = [
   {
-    quote: ["Noir Studio doesn't just", "deliver a film — they", "deliver a world that feels"],
+    quote: ["AD venture Studio doesn't just", "deliver a film — they", "deliver a world that feels"],
     highlight: "impossible to look away from.",
-    name: "Julian Vance",
+    name: "Julian C.",
     role: "Creative Director",
     company: "Lasteil",
     index: "01",
@@ -21,7 +21,7 @@ const testimonials = [
   {
     quote: ["The level of technical precision", "combined with raw artistic soul is"],
     highlight: "unparalleled in the industry.",
-    name: "Elena Rossi",
+    name: "Raj Mehta",
     role: "Head of Brand",
     company: "Global Vision",
     index: "02",
@@ -29,11 +29,19 @@ const testimonials = [
   {
     quote: ["They transformed our concept", "into a cinematic legacy.", "Every frame is a"],
     highlight: "masterpiece of engineering.",
-    name: "Marcus Thorne",
+    name: "Sophie L.",
     role: "Executive Producer",
     company: "Orion Films",
     index: "03",
   },
+  {
+    quote: ["AD venture Studio doesn't just", "deliver a film — they", "deliver a world that feels"],
+    highlight: "impossible to look away from.",
+    name: "AKshita Sharma",
+    role: "Branch Manager",
+    company: "Lasteil",
+    index: "04",
+  }
 ];
 
 export default function Testimonials() {
