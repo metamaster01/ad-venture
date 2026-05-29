@@ -49,18 +49,18 @@ const geist = Geist({subsets:['latin'],variable:'--font-sans'});
 export const metadata: Metadata = {
   title: 'AD VENTURE — Creative & Production Company',
   description:
-    'AD VENTURE is a modern creative and production company. We build impactful visual experiences through cinematic storytelling, branding, advertisements, VFX, AI creativity, and premium media production. From concept to final frame — engineered to be unforgettable.',
+    'AD VENTURE is a modern creative advertisement company. We build impactful visual experiences through cinematic storytelling, branding, advertisements, VFX, AI creativity, and premium media production. From concept to final frame — engineered to be unforgettable.',
   keywords: [
-    'creative production company', 'cinematic commercials', 'VFX production',
+    'creative advertisement company', 'cinematic commercials', 'VFX production',
     'brand identity', 'AI creativity', 'motion graphics', 'digital storytelling',
     'luxury brand visuals', 'ad venture', 'advertisement agency',
-    'Dubai production company', 'Mumbai production company',
+    'Dubai production company', 'Mumbai production company', 'Nagpur production company', 'cinematic storytelling', 'premium media production', 'visual experiences', 'brand storytelling', 'commercial production', 'advertising campaigns', 'creative direction', 'post-production services', 'visual effects studio', 'AI-driven creativity', 'motion design', 'digital advertising', 'brand strategy'
   ],
-  authors: [{ name: 'AD VENTURE Productions' }],
+  authors: [{ name: 'AD VENTURE Advertisement Company' }],
   openGraph: {
     title: 'AD VENTURE — We Build Cinematic Worlds.',
     description: 'Commercials, campaigns, VFX, AI creativity and brand storytelling engineered to be unforgettable.',
-    siteName: 'AD VENTURE Productions',
+    siteName: 'AD VENTURE Advertisement Company',
     type: 'website',
     locale: 'en_US',
   },
