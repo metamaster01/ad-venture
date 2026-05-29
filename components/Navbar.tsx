@@ -89,7 +89,7 @@ export default function Navbar() {
               </span>
               <span className="text-[9px] tracking-[0.3em] text-[#F5C518] uppercase font-light mt-[2px]"
                 style={{ fontFamily: 'Inter, sans-serif' }}>
-                Productions
+                Advertisement
               </span>
             </div>
 
