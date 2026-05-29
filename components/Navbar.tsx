@@ -7,7 +7,9 @@ import { motion, useScroll, useMotionValueEvent, AnimatePresence } from 'framer-
 import { gsap } from 'gsap';
 
 const NAV_LINKS = [
+
   { label: 'About',    href: '#about'    },
+  {label: 'Founders', href: '#founders' },
   { label: 'Work',     href: '#work'     },
   { label: 'Services', href: '#services' },
   { label: 'Studio',   href: '#studio'   },

@@ -368,10 +368,16 @@ export default function ContactSection() {
                   info.adventure27@gmail.com
                 </a>
               </div>
+              <div className="cs-contact-block">
+                <p className="cs-contact-label">Contact Us</p>
+                <a href="tel:7843012305" className="cs-contact-value">
+                  +91 78430 12305
+                </a>
+              </div>
 
               <div className="cs-contact-block">
-                <p className="cs-contact-label">Studio Location</p>
-                <span className="cs-contact-value">Nagpur / Maharashtra</span>
+                <p className="cs-contact-label">Office Location</p>
+                <span className="cs-contact-value">10B 2nd floor Gokuldham mankapur, Nagpur MH</span>
               </div>
             </motion.div>
           </div>

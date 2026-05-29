@@ -8,6 +8,7 @@ import ContactSection from '@/components/ContactSection';
 import Testimonials from '@/components/Testimonials';
 import SelectedWork from '@/components/SelectedWork';
 import Capabilities from '@/components/Capabilities';
+import FounderSection from '@/components/FounderSection';
 
 export default function HomePage() {
   return (
@@ -18,6 +19,7 @@ export default function HomePage() {
       <AboutSection />
       <SelectedWork />
       <Capabilities />
+      <FounderSection />
       <Testimonials />
       <CTASection />
       <FAQSection />

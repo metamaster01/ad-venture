@@ -13,8 +13,8 @@ const testimonials = [
   {
     quote: ["AD venture Studio doesn't just", "deliver a film — they", "deliver a world that feels"],
     highlight: "impossible to look away from.",
-    name: "Julian C.",
-    role: "Creative Director",
+    name: "Neha Choudhary",
+    role: "Team Lead and Manager",
     company: "Lasteil",
     index: "01",
   },
@@ -22,7 +22,7 @@ const testimonials = [
     quote: ["The level of technical precision", "combined with raw artistic soul is"],
     highlight: "unparalleled in the industry.",
     name: "Raj Mehta",
-    role: "Head of Brand",
+    role: "Head of Department",
     company: "Global Vision",
     index: "02",
   },
@@ -39,7 +39,7 @@ const testimonials = [
     highlight: "impossible to look away from.",
     name: "AKshita Sharma",
     role: "Branch Manager",
-    company: "Lasteil",
+    company: "Visionary Media",
     index: "04",
   }
 ];
@@ -156,7 +156,7 @@ export default function Testimonials() {
 
               .ts-label {
                 position: absolute;
-                top: 52px;
+                top: 64px;
                 left: 64px;
                 display: flex;
                 align-items: center;
@@ -169,7 +169,7 @@ export default function Testimonials() {
                 background: #c8a84b;
               }
               .ts-label-text {
-                font-size: 9px;
+                font-size: 29px;
                 font-weight: 600;
                 letter-spacing: 0.22em;
                 color: #555;
@@ -178,7 +178,7 @@ export default function Testimonials() {
 
               .ts-counter {
                 position: absolute;
-                top: 44px;
+                top: 64px;
                 right: 64px;
                 display: flex;
                 align-items: center;

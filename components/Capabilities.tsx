@@ -7,33 +7,33 @@ import { gsap } from "gsap";
 const capabilities = [
   {
     num: "01",
-    title: "Cinematic Films",
-    desc: "Commercials and brand films shot with cinematic precision and emotional depth.",
+    title: "Cinematic Ads & Films",
+    desc: "High-end brand commercials and cinematic films shot with emotional depth and luxury precision.",
   },
   {
     num: "02",
-    title: "Brand Identity",
-    desc: "Visual systems and luxury brand worlds engineered to be remembered.",
+    title: "AI-Powered Campaigns",
+    desc: "Generative concepts, AI-driven imagery and next-gen creative pipelines built for impact.",
   },
   {
     num: "03",
-    title: "VFX & Motion",
-    desc: "Visual effects, 3D and motion graphics that bend reality on demand.",
+    title: "VFX, CGI & Motion",
+    desc: "Visual effects, 3D and motion graphics that bend reality and elevate every frame.",
   },
   {
     num: "04",
-    title: "AI Creativity",
-    desc: "Generative concepts, AI-driven imagery and next-gen creative pipelines.",
+    title: "Luxury Brand Identity",
+    desc: "Visual systems, creative direction and brand worlds engineered to be remembered.",
   },
   {
     num: "05",
-    title: "Social Campaigns",
-    desc: "Scroll-stopping social content engineered for attention and reach.",
+    title: "Social & Viral Content",
+    desc: "Scroll-stopping reels and social campaigns engineered for attention, reach and culture.",
   },
   {
     num: "06",
     title: "Digital Experiences",
-    desc: "Immersive web, interactive and experiential storytelling.",
+    desc: "Immersive web, interactive storytelling and digital branding built for the future.",
   },
 ];
 
@@ -139,11 +139,11 @@ export default function Capabilities() {
         }
 
         .cap-subtext {
-          font-size: 14px;
+          font-size: 16px;
           font-weight: 300;
           line-height: 1.8;
           color: #666;
-          max-width: 380px;
+          max-width: 400px;
           align-self: end;
           padding-bottom: 6px;
         }
@@ -252,7 +252,7 @@ export default function Capabilities() {
             viewport={{ once: true }}
             transition={{ duration: 0.8, delay: 0.2, ease: [0.16, 1, 0.3, 1] }}
           >
-            We combine direction, design, code and craft under one roof — so the creative idea you start with is the idea that ships, uncompromised.
+            At ADVENTURE ADVERTISEMENT…we don’t follow trends.We create visuals that become unforgettable. — so the creative idea you start with is the idea that ships, uncompromised.
           </motion.p>
         </div>
 

@@ -18,18 +18,18 @@ const EASE = [0.16, 1, 0.3, 1] as [number, number, number, number];
 const PILLARS = [
   {
     num: '01',
-    title: 'Directing Intent',
-    body: 'Defining the narrative arc and the emotional frequency of the project from the first pitch.',
+    title: 'Cinematic Storytelling',
+    body: 'Every frame we design carries emotion. Every campaign we build carries impact. Every story we tell carries a soul.',
   },
   {
     num: '02',
-    title: 'Engineering Aesthetic',
-    body: 'Applying industrial rigour to every pixel, ensuring the final output feels heavy with value.',
+    title: 'AI & Luxury Aesthetics',
+    body: 'From AI-powered campaigns and VFX visuals to next-generation branding — built for brands that want to stand beyond the crowd.',
   },
   {
     num: '03',
-    title: 'Cinematic Execution',
-    body: 'Translating strategy into visuals that move people — frame by frame, cut by cut.',
+    title: 'Creativity is Aura',
+    body: 'We believe creativity is not just art. It is energy. Presence. Aura.',
   },
 ] as const;
 
@@ -132,13 +132,13 @@ export default function AboutSection() {
                 style={{ fontSize: 'clamp(2.8rem,5.5vw,5.2rem)' }}
                 variants={fadeUp} custom={0} initial="hidden" whileInView="visible"
                 viewport={{ once: true, margin: '-80px' }}>
-                The Synergy
+                Where Vision
               </motion.h2>
               <motion.p className="font-impact text-white leading-[0.88] uppercase"
                 style={{ fontSize: 'clamp(2.8rem,5.5vw,5.2rem)' }}
                 variants={fadeUp} custom={1} initial="hidden" whileInView="visible"
                 viewport={{ once: true, margin: '-80px' }}>
-                of <span className="text-gold-gradient">Craft.</span>
+                Becomes <span className="text-gold-gradient">Visiual.</span>
               </motion.p>
             </div>
 
@@ -147,11 +147,9 @@ export default function AboutSection() {
               style={{ fontFamily: 'Inter, sans-serif', fontWeight: 300 }}
               variants={fadeUp} custom={2} initial="hidden" whileInView="visible"
               viewport={{ once: true, margin: '-80px' }}>
-              We combine direction, design, code, and craft under one roof — so
-              the creative idea you start with is the idea that ships, uncompromised.
-              Our process is a relentless pursuit of visual perfection,{' '}
+              Born from creativity and driven by vision, ADVENTURE ADVERTISEMENT is a modern cinematic advertising studio founded by Trippti Anand and Prem Dhiraal. We create more than advertisements — we create visuals that people feel. {' '}
               <em className="not-italic text-[#bbb] font-[400]">
-                balancing technical precision with artistic soul.
+                By blending cinematic storytelling, AI innovation, luxury aesthetics and futuristic creativity, we transform brands into powerful visual identities.
               </em>
             </motion.p>
 
