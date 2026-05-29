@@ -11,7 +11,7 @@ if (typeof window !== "undefined") {
 
 const testimonials = [
   {
-    quote: ["AD venture Studio doesn't just", "deliver a film — they", "deliver a world that feels"],
+    quote: ["AD venture advertisement doesn't just", "deliver an Ad— they", "deliver a world that feels"],
     highlight: "impossible to look away from.",
     name: "Neha Choudhary",
     role: "Team Lead and Manager",
@@ -34,14 +34,14 @@ const testimonials = [
     company: "Orion Films",
     index: "03",
   },
-  {
-    quote: ["AD venture Studio doesn't just", "deliver a film — they", "deliver a world that feels"],
-    highlight: "impossible to look away from.",
-    name: "AKshita Sharma",
-    role: "Branch Manager",
-    company: "Visionary Media",
-    index: "04",
-  }
+  // {
+  //   quote: ["AD venture advertisement is a rare blend of", "technical wizardry and artistic brilliance.", "Their work is"],
+  //   highlight: "a testament to the power of creativity and innovation.",
+  //   name: "AKshita Sharma",
+  //   role: "Branch Manager",
+  //   company: "Visionary Media",
+  //   index: "04",
+  // }
 ];
 
 export default function Testimonials() {
@@ -169,7 +169,7 @@ export default function Testimonials() {
                 background: #c8a84b;
               }
               .ts-label-text {
-                font-size: 29px;
+                font-size: 20px;
                 font-weight: 600;
                 letter-spacing: 0.22em;
                 color: #555;
@@ -447,9 +447,8 @@ export default function Testimonials() {
                 {t.index}
               </motion.div>
             </AnimatePresence>
-
-            {/* Quote */}
-            <div className="ts-main">
+           {/* Quote */}
+            <div className="ts-main">        
               <div className="ts-quote-wrap">
                 <AnimatePresence mode="wait">
                   <motion.div key={active + "q"}>
